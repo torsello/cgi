@@ -1,0 +1,11 @@
+Despues de pegar los archivos en xampp, 
+reiniciar servidor apache desde xampp si es que lo prendiste,
+sino prendelo.
+Despues de prenderlo ya podes entrar a 127.0.0.1 desde chrome.
+Instalate el mysql odbc connector 3.51 creo que es, es la version 3 algo ahre
+Cuando tenes eso instalado, buscas desde el inicio:
+odbc data source o origen de datos odbc, 
+ahi creas una conexion con el nombre db.
+una vez que haces eso, ya podes usar los archivos, igual fijate bien que en todos los archivos
+que se hacen consultas a la bd, hay un connect con, el nombre de la conexion (db), user y pass de bd
+en mi pc es root y lala123, por si te tira error.
