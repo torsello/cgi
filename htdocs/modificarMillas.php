@@ -7,8 +7,8 @@ $sql= "SELECT * FROM rappioeste.user;";
 $rs= odbc_exec($conn, $sql);
 $rows=[];
 $x=0;
-while(odbc_fetch_array($rs)){
-    $rows[$x]= odbc_fetch_array($rs);
+while($arr=odbc_fetch_array($rs)){
+    $rows[$x]= $arr;
     $x++;
 }
 ?>

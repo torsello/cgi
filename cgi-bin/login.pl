@@ -39,11 +39,11 @@ if(!empty($username) and !empty($password)){
                         </head>
                         <body>
                             <ul>
-                                <li><a href="../emitirReporte.php">Emitir reporte</a></li>
-                                <li><a href="../altaCiudades.php">Alta ciudades</a></li>
-                                <li><a href="../bajaCiudades.php">Baja ciudades</a></li>
-                                <li><a href="../modificarMillas.php">Modificar millas</a></li>
-                            </ul>
+                                <li><a href="emitirReporte.pl">Emitir reporte</a></li>
+                                <li><a href="altaCiudad.pl">Alta ciudades</a></li>
+                                <li><a href="bajaCiudad.pl">Baja ciudades</a></li>
+                                <li><a href="modificarMillas.pl">Modificar millas</a></li>
+                            </ul>                            
                         </body>
                         </html>
                         <?php
@@ -60,9 +60,4 @@ if(!empty($username) and !empty($password)){
     }else{
 		$error='Todos los campos son requeridos.';
     }
-    
-
-	//header('location: http://127.0.0.1');
-    //exit();
-
 ?>
